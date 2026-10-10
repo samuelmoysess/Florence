@@ -1,0 +1,32 @@
+FORENSE | Gestão de Escalas — Versão 15.0
+DEMONSTRAÇÃO DE LOGIN, DASHBOARD E LOGOUT
+Desenvolvido por Paulo Gonçalves Leopoldo · 2026
+
+COMO ABRIR
+Abra o arquivo forense_gestao_escalas_v15.html ou index.html em um navegador moderno. Ele apresenta a tela de login antes de mostrar a interface. É um arquivo local, não um site público.
+
+CONTAS FICTÍCIAS / DEMONSTRAÇÃO SOMENTE
+Master: paulo.master | senha temporária: Master@2026!
+Movida (Administrador): jaqueline.leopoldo | senha temporária: Jaqueline@2026!
+Grupo Berbel (Administrador): fernando.muniz | senha temporária: Fernando@2026!
+Movida (Operacional): movida.operacional | senha temporária: Operador@2026!
+
+No primeiro acesso, é obrigatória a criação de senha diferente da temporária, com pelo menos 10 caracteres, letra maiúscula, minúscula, número e símbolo. No mesmo navegador, as senhas de teste alteradas permanecem registradas localmente. Para usar a senha temporária novamente, é necessário abrir em um navegador ou perfil sem o armazenamento anterior ou redefinir o acesso de demonstração. Cada dispositivo mantém dados diferentes.
+
+NAVEGAÇÃO INICIAL
+Master: abre Painel Master, com contagem de empresas e usuários de demonstração e atalho para Novo Cliente / Gestão de Acessos.
+Jaqueline: abre diretamente o Dashboard da Movida (exemplo).
+Fernando: abre diretamente o Dashboard do Grupo Berbel (exemplo).
+Operacional: abre o Dashboard da própria empresa; administração e novo cliente ocultos.
+
+LOGOUT
+Botão "Sair / Logout" no topo. Ao clicar, a interface é ocultada e a tela de login retorna. Ao reabrir o arquivo, o login é solicitado novamente.
+
+CADASTRO DE CLIENTE NA DEMONSTRAÇÃO
+O Master pode criar um cliente e preencher nome, unidade, administrador inicial e módulos. Um login de teste será criado para o administrador informado. O navegador mostrará a senha temporária de demonstração. Nenhum e-mail será enviado. O administrador verá o dashboard da empresa somente se acessar esse mesmo armazenamento de navegador.
+
+LIMITES ESSENCIAIS
+NÃO é um login de produção. O arquivo contém toda a lógica no navegador e, por isso, o controle de acesso pode ser contornado por quem possui o HTML ou acesso ao armazenamento local. As senhas padrão são exemplos embutidos no arquivo e não devem ser reutilizadas.
+Não existe autenticação de servidor, isolamento seguro entre empresas, banco de dados na nuvem, auditoria imutável, recuperação remota, convites reais ou acesso sincronizado entre dispositivos.
+NÃO insira dados pessoais ou documentos reais, valores financeiros reais, chaves Pix ou credenciais de outros serviços neste protótipo.
+A implantação definitiva exigirá um backend de autenticação e políticas de isolamento por empresa, com publicação HTTPS e testes de autorização.
